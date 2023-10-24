@@ -1,3 +1,7 @@
+//• Crie a classe chamada Indicadores e um método chamado ImprimirIndicadores para guardar 3 valores inteiros que imprima na tela:
+
+//• Em seguida crie uma classe chamada ExecutarValores: ela deve instanciar a classe Indicadores para um atributo chamado indicador1 nele você deve colocar os três valores, e use o método imprimirIndicadores do método Indicadores para imprimir os 3 indicadores na tela.
+
 import java.util.*;
 
 class Imprime {
