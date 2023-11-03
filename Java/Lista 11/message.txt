@@ -1,0 +1,196 @@
+//Questão 01:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: O metodo caixaPreta possui um modficador static, tornando-o um metodo de uma classe
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo int
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: o método caixaPreta foi definido como um "método de classe" (ou método estático) devido ao uso do modificador static
+public class Funcao01
+{
+    static int caixaPreta(int a, int b) {
+        return a*a +b;
+    }
+
+    public static void main(String []args) {
+
+        int resposta;
+
+        resposta = caixaPreta(3, 5);
+
+        System.out.println(resposta);
+    }
+}
+//FIM DA QUESTÃO 01!
+
+//Questão 02:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: O método "calcular" possui o modificador "static", tornando-o um método de classe.
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo double.
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: o método calcular foi definido como um "método de classe" (ou método estático) devido ao uso do modificador static.
+
+public class Funcao02
+{
+    static double calcular(double a, double b) { 
+
+        double x;
+
+        x = a*a + 2*a*b + b*b;
+
+        return x;
+
+    }
+
+    public static void main(String []args) {
+
+        double resposta;
+        
+        resposta = calcular (2,3);
+
+        System.out.println(resposta);
+    }
+}
+//FIM DA QUESTÃO 02!
+
+//Questão 03:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: O método "calcular" possui o modificador "static", tornando-o um método de classe.
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo double.
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: o método calcular foi definido como um "método de classe" (ou método estático) devido ao uso do modificador static.
+
+import java.math.*;
+
+public class Funcao03
+{
+    static double calcular (double a, double b) {
+        double x;
+
+        x = Math.pov(a,2) + 2*a*b + Math.pov(b,2);
+
+        return x;
+
+    }
+
+    public static void main(String []args) {
+
+        double resposta;
+
+        resposta = calcular(2,3);
+
+        System.out.prinln(resposta);
+        
+    }
+}
+//FIM DA QUESTÃO 03!
+
+//Questão 04:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: O método "calcular" possui o modificador "static", tornando-o um método de classe.
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo void.
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: o método calcular foi definido como um "método de classe" (ou método estático) devido ao uso do modificador static.
+
+import java.math.*;
+
+public class Funcao04
+{
+    static void calcular(double a, double b) {
+
+        System.out.println( Math.floor(a/b) );
+        System.out.println( Math.ceil(a/b) );
+
+        System.out.println( Math.min(a,b) );
+        System.out.println( Math.max(a,b) );
+
+        System.out.println( Math.pow(a,b) );
+
+        System.out.println( Math.sqrt(a+b) );
+
+        System.out.println( Math.abs(-a-b) );
+    }
+
+    public static void main(String []args) {
+        calcular(2,3);
+    }
+}
+//FIM DA QUESTÃO 04!
+
+//Questão 05:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: O método "nao" possui o modificador "static", tornando-o um método de classe.
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo boolean.
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: o método "nao" foi definido como um "método de classe" (ou método estático) devido ao uso do modificador static.
+
+public class Funcao05
+{
+    static boolean nao(boolean p) {
+        return !p;
+
+    }
+
+    public static void main(String []args ) {
+
+        boolean var;
+
+        var = true;
+        System.out.println( var );
+        System.out.println( nao(var) );
+        System.out.println( nao(nao(var)) );
+    }
+
+
+}
+//FIM DA QUESTÃO 05!
+
+//Questão 06:
+// 2.1 - Quais são os MODIFICADORES identificados?
+// R: Os métodos "algumasOperacoes" e "imprimeValores" possuem o modificador "static", tornando-os um método de classe.
+
+// 2.2 - Quais os TIPOS DE RETORNO que foram usados no código?
+// R: retorno de tipo void.(tanto o algumasOperacoes quanto o imprimeValores)
+
+// 2.3 - Qual o tipo de método foi usado "método de classe ou método de instância"? Houve alguma função montada por eles?
+// R: os métodos "algumasOperacoes" e "imprimeValores" foram definidos como um "métodos de classse" (ou métodos estáticos) devido ao uso do modificador static.
+
+public class Funcao06 
+{
+    static void algumasOperacoes(int a, int b, int c) {
+        
+        int t;
+
+        imprimeValores(a, b, c);
+
+        t = a;
+        a = b;
+        b = c;
+        c = t;
+        
+        imprimeValores(a,b,c);
+    }
+
+    static void imprimeValores(int a, int b, int c) {
+        System.out.println("A="+a+", B="+b+", C="+c);
+
+    }
+
+    public static void main (String []args){
+
+        algumasOperacoes(10,20,30);
+    }
+}
