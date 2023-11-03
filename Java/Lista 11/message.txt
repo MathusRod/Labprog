@@ -24,6 +24,8 @@ public class Funcao01
 }
 //FIM DA QUESTÃO 01!
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 //Questão 02:
 // 2.1 - Quais são os MODIFICADORES identificados?
 // R: O método "calcular" possui o modificador "static", tornando-o um método de classe.
@@ -56,6 +58,8 @@ public class Funcao02
     }
 }
 //FIM DA QUESTÃO 02!
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Questão 03:
 // 2.1 - Quais são os MODIFICADORES identificados?
@@ -92,6 +96,8 @@ public class Funcao03
 }
 //FIM DA QUESTÃO 03!
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 //Questão 04:
 // 2.1 - Quais são os MODIFICADORES identificados?
 // R: O método "calcular" possui o modificador "static", tornando-o um método de classe.
@@ -127,6 +133,8 @@ public class Funcao04
 }
 //FIM DA QUESTÃO 04!
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 //Questão 05:
 // 2.1 - Quais são os MODIFICADORES identificados?
 // R: O método "nao" possui o modificador "static", tornando-o um método de classe.
@@ -157,6 +165,8 @@ public class Funcao05
 
 }
 //FIM DA QUESTÃO 05!
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Questão 06:
 // 2.1 - Quais são os MODIFICADORES identificados?
@@ -194,3 +204,8 @@ public class Funcao06
         algumasOperacoes(10,20,30);
     }
 }
+//FIM DA QUESTÃO 06!
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//FIM DA ATIVIDADE!
